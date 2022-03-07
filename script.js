@@ -21,23 +21,22 @@ function findAkanName() {
   var DATE = parseInt(thisDateArray[2]);
   console.log(DATE)
 
-  var d = parseInt((((CENTURY / 4) - 2 * CENTURY - 1) + ((5 * YEAR / 4)) + ((26 * (MONTH + 1) / 10)) + DATE) % 7);
-  console.log(d)
+  var day = parseInt((((CENTURY / 4) - 2 * CENTURY - 1) + ((5 * YEAR / 4)) + ((26 * (MONTH + 1) / 10)) + DATE) % 7);
+  console.log(day)
 
-  if (maleArray[d] === undefined || femaleArray[d] === undefined) {
+  if (maleArray[day] === undefined || femaleArray[day] === undefined) {
     alert("Enter valid date")
   } else {
 
     if (male.selected === true) {
-      console.log(maleArray[d])
-      alert(maleArray[d] + " is your Akan Name")
+      console.log(maleArray[day])
+      document.getElementById('result').textContent = maleArray[day] + " is your Akan Name";
 
     }
-
-    if (female.selected === true) {
-      console.log(femaleArray[d])
-
-      alert(femaleArray[d] + " is your Akan Name")
+    
+    else if (female.selected === true) {
+      console.log(femaleArray[day])
+      document.getElementById('result').textContent = femaleArray[day] + " is your Akan Name";
 
     }
   }

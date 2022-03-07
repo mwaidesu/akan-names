@@ -36,3 +36,9 @@ input:hover, select:hover{
   border: 2px solid green;
   color: gray;
 }
+
+#result{
+  border: 1px solid black;
+  padding: 20px;
+
+}
