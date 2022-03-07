@@ -1,55 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&family=Sansita+Swashed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans&family=Sansita+Swashed&display=swap");
 
-body{
+body {
   padding: 40px;
+  color: black !important;
 }
 
-.container-fluid{
-  font-family: 'Ropa Sans', sans-serif;
+.container-fluid {
+  font-family: "Ropa Sans", sans-serif;
   font-size: 30px;
-
 }
 
-button{
+button {
   border-radius: 7px;
   border: none;
 }
 
-.bg-primary:hover{
+.bg-primary:hover {
   background-color: green;
 }
 
-.bg-danger:hover{
+.bg-danger:hover {
   background-color: red;
   color: white;
 }
 
-input, select{
+input,
+select {
   width: 45%;
   height: 50px;
   border-radius: 7px;
-  background-color: white;
-  border: 1px solid grey;
+  background-color: #ebebeb;
+  border: 1px solid #ebebeb;
 }
 
-input:hover, select:hover{
+input:hover,
+select:hover {
   border: 2px solid green;
-  color: gray;
 }
 
-#result{
+#result {
   border: 1px solid black;
   padding: 20px;
-
+  background-color: #ebebeb;
 }
 
-.form-div{
+.form-div {
   margin: 30px;
   padding: 10px;
 }
 
-@media screen and (orientation: portrait){
-  input,select{
+@media screen and (orientation: portrait) {
+  input,
+  select {
     width: 90%;
   }
 }
