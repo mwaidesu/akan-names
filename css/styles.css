@@ -42,3 +42,8 @@ input:hover, select:hover{
   padding: 20px;
 
 }
+
+.form-div{
+  margin: 30px;
+  padding: 10px;
+}
