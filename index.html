@@ -50,7 +50,7 @@
         </div>
         <div class="col-md-6">
           <form action="" id="myForm">
-            <div>
+            <div class="form-div">
               <label for="gender">Choose your gender:</label>
 
               <select name="gender" id="gender">
@@ -60,12 +60,16 @@
               </select>
             </div>
 
-            <div>
+            <div class="form-div">
               <label for="date">Enter your birthday:</label>
               <input type="date" id="date" name="date" />
             </div>
 
-            <div><button type="submit" class="bg-primary" onclick="findAkanName()">Submit</button></div>
+            <div class="form-div">
+              <div class="col-md-6 submit"><button type="submit" class="bg-primary" onclick="findAkanName()">Submit</button></div>
+
+            <div class="col-md-6 "><button type="reset" class="bg-danger">Clear</button></div>
+            </div>
           </form>
 
 

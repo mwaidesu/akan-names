@@ -9,3 +9,22 @@ body{
   font-size: 30px;
 
 }
+
+button{
+  border-radius: 7px;
+  border: none;
+}
+
+.bg-primary:hover{
+  background-color: green;
+}
+
+.bg-danger:hover{
+  background-color: red;
+  color: white;
+}
+
+input, select{
+  width: 45%;
+  height: 50px;
+}
