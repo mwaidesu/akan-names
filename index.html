@@ -49,20 +49,20 @@
           </div>
         </div>
         <div class="col-md-6">
-          <form action="" id="myForm">
+          <form action="" id="myForm" onsubmit="return false">
             <div class="form-div">
               <label for="gender">Choose your gender:</label>
 
-              <select name="gender" id="gender">
+              <select name="gender" id="gender" required >
                 <option value="male" id="male">Male</option>
                 <option value="female" id="female">Female</option>
-                <option value="default" selected>--Choose your gender--</option>
+                <option value="" selected>--Choose your gender--</option>
               </select>
             </div>
 
             <div class="form-div">
               <label for="date">Enter your birthday:</label>
-              <input type="date" id="date" name="date" />
+              <input required type="date" id="date" name="date" />
             </div>
 
             <div class="form-div">
@@ -71,6 +71,12 @@
             <div class="col-md-6 "><button type="reset" class="bg-danger">Clear</button></div>
             </div>
           </form>
+
+
+          <div>
+            <h4 id = display-name><strong>Your Akan name will be displayed below:</strong></h4>
+          <p id="result"></p>
+          </div>
 
 
 
