@@ -47,3 +47,9 @@ input:hover, select:hover{
   margin: 30px;
   padding: 10px;
 }
+
+@media screen and (orientation: portrait){
+  input,select{
+    width: 90%;
+  }
+}
