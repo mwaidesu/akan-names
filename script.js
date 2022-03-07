@@ -7,8 +7,8 @@ function findAkanName(){
   var female = document.getElementById("female");
 
   thisDateArray = DATE.value.split("-");
-
   console.log(thisDateArray)
+
     var CENTURY = parseInt(thisDateArray[0][0] + thisDateArray[0][1]);
     console.log(CENTURY)
 
@@ -20,4 +20,7 @@ function findAkanName(){
 
     var DATE = parseInt(thisDateArray[2]);
     console.log(DATE)
+
+    var d = parseInt((((CENTURY / 4) - 2 * CENTURY - 1) + ((5 * YEAR / 4)) + ((26 * (MONTH + 1) / 10)) + DATE) % 7);
+    console.log(d)
 }
