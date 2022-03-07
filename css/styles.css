@@ -27,4 +27,12 @@ button{
 input, select{
   width: 45%;
   height: 50px;
+  border-radius: 7px;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+input:hover, select:hover{
+  border: 2px solid green;
+  color: gray;
 }
