@@ -23,4 +23,21 @@ function findAkanName(){
 
     var d = parseInt((((CENTURY / 4) - 2 * CENTURY - 1) + ((5 * YEAR / 4)) + ((26 * (MONTH + 1) / 10)) + DATE) % 7);
     console.log(d)
+
+    if (maleArray[d] === undefined || femaleArray[d] === undefined) {
+      alert("Enter valid date")
+  } else {
+
+      if (male.selected === true) {
+          console.log(maleArray[d])
+          alert( maleArray[d] + " is your Akan Name" )
+
+      }
+
+      if (female.selected === true) {
+          console.log(femaleArray[d])
+
+          alert(femaleArray[d] + " is your Akan Name")
+
+      }
 }
