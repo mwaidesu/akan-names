@@ -55,10 +55,36 @@ form{
   padding: 50px;
   border-radius: 7px;
   opacity: 0.8;
+  margin: 15px;
 }
 
 form label, form h4{
   color: white;
+
+}
+
+footer{
+  background-color: #37416B;
+  opacity:0.8 ;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  color: white;
+}
+
+footer a{
+color: white;
+padding: 3px;
+border-radius: 2px;
+}
+
+footer a:hover{
+  zoom: 1.2;
+  background-color: aqua;
+  border-radius: 2px;
+
 }
 
 @media screen and (orientation: portrait) {
