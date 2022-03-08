@@ -49,12 +49,6 @@ select:hover {
   padding: 10px;
 }
 
-@media screen and (orientation: portrait) {
-  input,
-  select {
-    width: 90%;
-  }
-}
 
 form{
   background-color:#37416B;
@@ -65,4 +59,11 @@ form{
 
 form label, form h4{
   color: white;
+}
+
+@media screen and (orientation: portrait) {
+  input,
+  select {
+    width: 90%;
+  }
 }
