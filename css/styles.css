@@ -55,3 +55,14 @@ select:hover {
     width: 90%;
   }
 }
+
+form{
+  background-color:#37416B;
+  padding: 50px;
+  border-radius: 7px;
+  opacity: 0.8;
+}
+
+form label, form h4{
+  color: white;
+}
