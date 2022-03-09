@@ -22,13 +22,7 @@ function findAkanName() {
   console.log(DATE);
 
   var day = parseInt(
-    (CENTURY / 4 -
-      2 * CENTURY -
-      1 +
-      (5 * YEAR) / 4 +
-      (26 * (MONTH + 1)) / 10 +
-      DATE) %
-      7
+    (CENTURY / 4 - 2 * CENTURY - 1 + (5 * YEAR) / 4 + (26 * (MONTH + 1)) / 10 + DATE) % 7
   );
   console.log(day);
 
@@ -45,4 +39,9 @@ function findAkanName() {
         femaleArray[day] + " is your Akan Name";
     }
   }
+
+  $(".bg-primary").click(function(){
+    $("#result").show();
+    $('.bg-primary').off('dblclick');
+  });
 }

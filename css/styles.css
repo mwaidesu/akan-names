@@ -10,6 +10,12 @@ body {
   font-size: 30px;
 }
 
+.heading{
+  font-size: 70px;
+  text-shadow: 0  0 2px rgb(148, 144, 144);
+  
+}
+
 button {
   border-radius: 7px;
   border: none;
@@ -40,19 +46,21 @@ select:hover {
 
 #result {
   border: 1px solid black;
-  padding: 20px;
+  padding: 10px;
   background-color: #ebebeb;
+  display:none;
+  box-shadow: 0 0 10px #000000;
 }
 
 .form-div {
   margin: 30px;
-  padding: 10px;
+  padding: 7px;
 }
 
 
 form{
   background-color:#37416B;
-  padding: 50px;
+  padding: 44px;
   border-radius: 7px;
   opacity: 0.8;
   margin: 15px;
